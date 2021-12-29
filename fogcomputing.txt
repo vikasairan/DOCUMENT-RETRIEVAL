@@ -1,0 +1,72 @@
+By Sotirios Paroutis
+
+Rapid advances in IT have enabled manufacturers to embed sensors and microchips to improve the performance of products and services such as home appliances, heating systems, mobile phones, televisions, road vehicles, hospital monitoring equipment and agricultural machinery.
+
+Embedded sensors that can diagnose faults, optimise performance, and save energy are just some of the benefits of ‘smart technology’.
+
+But how can the vast data that these new devices collect be analysed in an efficient way? And what does this new reality mean for the way we work and for how firms develop their future strategies? Before I address these questions, let me start closer to home.
+
+Smart home appliances such as intelligent fridges which monitor food consumption and re-order supplies from online grocery suppliers, home heating systems that can be controlled from your mobile phone and smart meters which monitor energy use are part of a growing trend towards home automation. Outside our homes, autonomous vehicles are expected to revolutionise the way we travel.
+
+The devices that surround us in and out of our homes, and in our workplaces, often incorporate mini computers constantly feeding back information to their users in real time. Their ability to process information instantly, bypasses the need to store information in the ‘cloud’.
+
+It was quickly realised that smart devices and sensors could interact and talk to each other via wireless networks. The term used for this process is ‘fog computing’. Based on decentralised, local network architectures, fog computing, also associated with ‘edge computing’, speeds up the analysis and retrieval of data near their source. It supplements and replaces our dependence on storing data in the cloud.
+
+Manufacturers realised that they needed to collaborate to take this architecture from paper to reality. The Open Fog Consortium was originally set up at Princeton University in 2015 by micro-processor designers and software developers Cisco, ARM, Dell, Intel and Microsoft.
+
+The challenges involved in building the necessary architecture for networks and ecosystems are so complex that no single firm could find a solution. By sharing their research, members of the Open Fog Consortium have created a common architecture in which smart machines can communicate and interact as part of an internet of things (IoT).
+
+
+Warwick Business School joined the Open Fog Consortium two years ago. Through our collaboration and work on the consortium’s social impact committee, we have been able to help consortium members think strategically about the evolution of fog computing as a platform ecosystem as well as to start addressing the social impact of fog and IoT technologies.
+
+The ability to work smarter and faster is about to revolutionise key areas like IT, healthcare, agriculture, transport and manufacturing as well as local and national government. Greater amounts of data can be stored and analysed, hospitals will benefit from smart diagnostic tests and the automation of routine procedures, allowing extra resources to be channelled to where they are needed in A&E departments and intensive care wards. Agriculture will benefit from smarter analysis of soil and growth conditions, enabling crops to be farmed more intensively.
+
+Fog computing will have an even bigger impact in the development of ‘smart cities’ where traffic management systems, public transport, healthcare provision and social services, for example, can be linked to provide greater efficiencies.
+
+The changes to our work environment can be summed up by the acronym CHANGE. This stands for cloud computing, healthcare, agriculture, networking, geo-location services and ecosystems.
+
+How will fog computing work with the cloud?
+
+Cloud computing or data storage will be supplemented by local fog networks. There are three benefits?—?latency, security and capacity. For example, mission critical applications such as in healthcare diagnostics or autonomous driving demand extremely low latency.
+
+In addition to cutting the time required for the retrieval of data and decision-making, fog provides greater security because the more data travels the more it can be intercepted. Fog computing devices can be encrypted using stored biometric data. The use of mobile phones to make payments and conduct banking transactions, for example, would not have been possible without the strongest possible security.
+
+Finally, fog computing supplements the storage capacity of the cloud. This is the technology that underpins the development of driverless cars. Smart vehicles currently being trialled generate 35 gigabytes (Gb) of data per hour, roughly a quarter of the capacity of the average laptop. This data can only be processed locally via a secure fog computing network.
+
+IoT continues to expand rapidly. Market research company Gartner has forecast that by 2020 there will be 26 million smart devices worldwide. This is focusing corporate minds on investment opportunities.
+
+
+In January 2019, the Open Fog Consortium merged with the Industrial Internet Consortium to form the largest consortia of its kind in the world. By bringing together the two consortia there are now more than 200 corporate members collaborating in joint projects such as Cisco, Intel, Dell, Bosch, General Electric and Huawei.
+
+Pilot projects based on smart cities are currently being trialled around the world. At stake is the survival of cities themselves. As urban populations swell so the task of providing efficient and secure co-ordinated transport systems, healthcare, and education becomes more challenging.
+
+Fog computing is the key to effectively co-ordinating services. This is where the big gains are to be made, for example, in the design and operation of city wide traffic management systems, centrally co-ordinated waste disposal, citizen healthcare initiatives, shared bicycle schemes, telecommunications hubs and improved crime detection and prevention. All of these initiatives are based on the city’s ability to capture and share vast amounts of data.
+
+A good example of this can be seen in Chicago where the Illinois Medical District (IMD) and global consulting practice, Ignite Cities, have formed a private and public partnership to create a national hub for medicine, innovation and research.
+
+How fog computing can help build smart cities
+
+With more than 40 healthcare organisations, four world-class hospitals, two universities and research lab space, IMD is set to become a health innovation destination. This in turn is leading to wider improvements and leveraging investment in the area’s transport infrastructure and public services.
+
+Ignite will work with IMD to build a connected and intelligent solution to transform transportation, connectivity and safety throughout the district. Served by two train lines and seven bus routes that move 82,000 people throughout the area weekly, as well as protected bicycle lanes and bike-share stations, fog computing will connect people, devices and services to drive greater efficiency and security.
+
+The proposed development of public Wi-Fi, digital kiosks, transportation and intelligent lighting will enhance the quality of life for citizens as well as create new revenue share opportunities, sustainable urbanisation, smarter infrastructure, and scalable services.
+
+The Open Fog and Industrial Internet Consortia are assessing 31 smart city projects around the world including Paris, Nice, Amsterdam, Barcelona, Chicago and Milton Keynes. In each case the trial is driven by local priorities, but information shared could create a blueprint for the city of the future.
+
+
+The public benefits and efficiency savings may be obvious but citizens are understandably wary about the potential social impact. With all-embracing intelligent networks, there may be issues around privacy and security. The question for the user is: do you give permission for your data to be shared and if yes, how will this data be used exactly?
+
+A healthcare trust collecting and aggregating personal medical data for research purposes might not be seen as a threat. But where data associated with an individual is used this might breach a person’s privacy.
+
+Technology partners need to be aware of the downsides and firms who use fog computing should assess how it could change working practices.
+
+In future, firms may install smart technology to assist with decisions or carry out tasks that humans perform at present. An example I often cite is the impact of automation on the freight and logistics industry.
+
+The development of driverless trucks might reduce the demand for truck drivers as freight could be transported at night, travelling non-stop on less crowded motorways. Driverless technology would mean freight companies not being bound by the legal number of working hours a driver can spend to comply with safe practices.
+
+Another example is hospital automation where diffusion pumps used to administer drugs intravenously can store and feedback information on the drugs being prescribed and alert doctors to possible dangerous combinations of drugs.
+
+The advantages may be clear, but firms need to assess the challenges involved in introducing fog computing and allow time for new working practices to evolve. Companies should design solutions based on the feedback they get from the end-users, while in smart city pilots, like Chicago’s healthcare hub, success will come from the active participation of citizens in the change process.
+
+Fog computing can really come into its own as a viable ecosystem of the future when stakeholders are fully engaged in the process and where the participants and end-users can feedback their ideas to create solutions with wider societal impact.

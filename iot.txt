@@ -1,0 +1,380 @@
+The next wave in the era of computing will be outside the realm
+of the traditional desktop. In the Internet of Things (IoT) paradigm,
+many of the objects that surround us will be on the network in one
+form or another. Radio Frequency IDentification (RFID) and sensor
+network technologies will rise to meet this new challenge, in which
+information and communication systems are invisibly embedded
+in the environment around us. This results in the generation of
+enormous amounts of data which have to be stored, processed
+and presented in a seamless, efficient, and easily interpretable
+form. This model will consist of services that are commodities and
+delivered in a manner similar to traditional commodities. Cloud
+∗ Corresponding author. Tel.: +61 3 83441344; fax: +61 3 93481184.
+E-mail addresses: rbuyya@unimelb.edu.au, raj@cs.mu.oz.au (R. Buyya).
+URL: http://www.buyya.com (R. Buyya).
+computing can provide the virtual infrastructure for such utility
+computing which integrates monitoring devices, storage devices,
+analytics tools, visualization platforms and client delivery. The cost
+based model that Cloud computing offers will enable end-to-end
+service provisioning for businesses and users to access applications
+on demand from anywhere.
+Smart connectivity with existing networks and context-aware
+computation using network resources is an indispensable part of
+IoT. With the growing presence of WiFi and 4G-LTE wireless Internet
+access, the evolution towards ubiquitous information and communication
+networks is already evident. However, for the Internet
+of Things vision to successfully emerge, the computing paradigm
+will need to go beyond traditional mobile computing scenarios
+that use smart phones and portables, and evolve into connecting
+everyday existing objects and embedding intelligence into our
+environment. For technology to disappear from the consciousness
+of the user, the Internet of Things demands: (1) a shared
+understanding of the situation of its users and their appliances,
+0167-739X/$ – see front matter © 2013 Elsevier B.V. All rights reserved.
+http://dx.doi.org/10.1016/j.future.2013.01.010
+1646 J. Gubbi et al. / Future Generation Computer Systems 29 (2013) 1645–1660
+(2) software architectures and pervasive communication networks
+to process and convey the contextual information to where it is relevant,
+and (3) the analytics tools in the Internet of Things that aim
+for autonomous and smart behavior. With these three fundamental
+grounds in place, smart connectivity and context-aware computation
+can be accomplished.
+The term Internet of Things was first coined by Kevin Ashton
+in 1999 in the context of supply chain management [1]. However,
+in the past decade, the definition has been more inclusive covering
+wide range of applications like healthcare, utilities, transport,
+etc. [2]. Although the definition of ‘Things’ has changed as technology
+evolved, the main goal of making a computer sense information
+without the aid of human intervention remains the same.
+A radical evolution of the current Internet into a Network of interconnected
+objects that not only harvests information from the
+environment (sensing) and interacts with the physical world (actuation/
+command/control), but also uses existing Internet standards
+to provide services for information transfer, analytics, applications,
+and communications. Fueled by the prevalence of devices enabled
+by open wireless technology such as Bluetooth, radio frequency
+identification (RFID), Wi-Fi, and telephonic data services as well as
+embedded sensor and actuator nodes, IoT has stepped out of its infancy
+and is on the verge of transforming the current static Internet
+into a fully integrated Future Internet [3]. The Internet revolution
+led to the interconnection between people at an unprecedented
+scale and pace. The next revolution will be the interconnection between
+objects to create a smart environment. Only in 2011 did the
+number of interconnected devices on the planet overtake the actual
+number of people. Currently there are 9 billion interconnected
+devices and it is expected to reach 24 billion devices by 2020.
+According to the GSMA, this amounts to $1.3 trillion revenue opportunities
+for mobile network operators alone spanning vertical
+segments such as health, automotive, utilities and consumer electronics.
+A schematic of the interconnection of objects is depicted in
+Fig. 1, where the application domains are chosen based on the scale
+of the impact of the data generated. The users span from individual
+to national level organizations addressing wide ranging issues.
+This paper presents the current trends in IoT research
+propelled by applications and the need for convergence in several
+interdisciplinary technologies. Specifically, in Section 2,wepresent
+the overall IoT vision and the technologies that will achieve it
+followed by some common definitions in the area along with
+some trends and taxonomy of IoT in Section 3. We discuss several
+application domains in IoT with a new approach in defining them
+in Section 4 and Section 5 provides our Cloud centric IoT vision.
+A case study of data analytics on the Aneka/Azure cloud platform
+is given in Section 6 and we conclude with discussions on open
+challenges and future trends in Section 7.
+2. Ubiquitous computing in the next decade
+The effort by researchers to create a human-to-human interface
+through technology in the late 1980s resulted in the creation
+of the ubiquitous computing discipline, whose objective is to embed
+technology into the background of everyday life. Currently, we
+are in the post-PC era where smart phones and other handheld devices
+are changing our environment by making it more interactive
+as well as informative. Mark Weiser, the forefather of Ubiquitous
+Computing (ubicomp), defined a smart environment [4] as ‘‘the
+physical world that is richly and invisibly interwoven with sensors,
+actuators, displays, and computational elements, embedded seamlessly
+in the everyday objects of our lives, and connected through
+a continuous network’’.
+The creation of the Internet has marked a foremost milestone
+towards achieving ubicomp’s vision which enables individual
+devices to communicate with any other device in the world. The
+inter-networking reveals the potential of a seemingly endless
+amount of distributed computing resources and storage owned by
+various owners.
+In contrast to Weiser’s Calm computing approach, Rogers
+proposes a human centric ubicomp which makes use of human
+creativity in exploiting the environment and extending their capabilities
+[5]. He proposes a domain specific ubicomp solution when
+he says—‘‘In terms of who should benefit, it is useful to think of
+how ubicomp technologies can be developed not for the Sal’s of
+the world, but for particular domains that can be set up and customized
+by an individual firm or organization, such as for agricultural
+production, environmental restoration or retailing’’.
+Caceres and Friday [6] discuss the progress, opportunities
+and challenges during the 20 year anniversary of ubicomp. They
+discuss the building blocks of ubicomp and the characteristics of
+the system to adapt to the changing world. More importantly,
+they identify two critical technologies for growing the ubicomp
+infrastructure—Cloud Computing and the Internet of Things.
+The advancements and convergence of micro-electro-mechanical
+systems (MEMS) technology, wireless communications, and
+digital electronics has resulted in the development of miniature
+devices having the ability to sense, compute, and communicate
+wirelessly in short distances. These miniature devices called nodes
+interconnect to form a wireless sensor networks (WSN) and find
+wide ranging applications in environmental monitoring, infrastructure
+monitoring, traffic monitoring, retail, etc. [7]. This has the
+ability to provide a ubiquitous sensing capability which is critical
+in realizing the overall vision of ubicomp as outlined by Weiser [4].
+For the realization of a complete IoT vision, efficient, secure, scalable
+and market oriented computing and storage resourcing is essential.
+Cloud computing [6] is the most recent paradigm to emerge
+which promises reliable services delivered through next generation
+data centers that are based on virtualized storage technologies.
+This platform acts as a receiver of data from the ubiquitous
+sensors; as a computer to analyze and interpret the data; as well
+as providing the user with easy to understand web based visualization.
+The ubiquitous sensing and processing works in the background,
+hidden from the user.
+This novel integrated Sensor–Actuator–Internet framework
+shall form the core technology around which a smart environment
+will be shaped: information generated will be shared across diverse
+platforms and applications, to develop a common operating
+picture (COP) of an environment, where control of certain unrestricted
+‘Things’ is made possible. As we move from www (static
+pages web) to web2 (social networking web) to web3 (ubiquitous
+computing web), the need for data-on-demand using sophisticated
+intuitive queries increases. To take full advantage of the available
+Internet technology, there is a need to deploy large-scale, platformindependent,
+wireless sensor network infrastructure that includes
+data management and processing, actuation and analytics. Cloud
+computing promises high reliability, scalability and autonomy to
+provide ubiquitous access, dynamic resource discovery and composability
+required for the next generation Internet of Things applications.
+Consumers will be able to choose the service level by
+changing the Quality of Service parameters.
+3. Definitions, trends and elements
+3.1. Definitions
+As identified by Atzori et al. [8], Internet of Things can be realized
+in three paradigms—internet-oriented (middleware), things
+oriented (sensors) and semantic-oriented (knowledge). Although
+this type of delineation is required due to the interdisciplinary nature
+of the subject, the usefulness of IoT can be unleashed only in
+an application domain where the three paradigms intersect.
+The RFID group defines the Internet of Things as –
+J. Gubbi et al. / Future Generation Computer Systems 29 (2013) 1645–1660 1647
+Fig. 1. Internet of Things schematic showing the end users and application areas based on data.
+• The worldwide network of interconnected objects uniquely
+addressable based on standard communication protocols.
+According to Cluster of European research projects on the Internet
+of Things [2] –
+• ‘Things’ are active participants in business, information and
+social processes where they are enabled to interact and communicate
+among themselves and with the environment by exchanging
+data and information sensed about the environment,
+while reacting autonomously to the real/physical world events
+and influencing it by running processes that trigger actions and
+create services with or without direct human intervention.
+According to Forrester [9], a smart environment –
+• Uses information and communications technologies to make
+the critical infrastructure components and services of a
+city’s administration, education, healthcare, public safety, real
+estate, transportation and utilities more aware, interactive and
+efficient.
+In our definition, we make the definition more user centric and do
+not restrict it to any standard communication protocol. This will
+allow long-lasting applications to be developed and deployed using
+the available state-of-the-art protocols at any given point in time.
+Our definition of the Internet of Things for smart environments is
+–
+• Interconnection of sensing and actuating devices providing the
+ability to share information across platforms through a unified
+framework, developing a common operating picture for
+enabling innovative applications. This is achieved by seamless
+ubiquitous sensing, data analytics and information representation
+with Cloud computing as the unifying framework.
+3.2. Trends
+Internet of Things has been identified as one of the emerging
+technologies in IT as noted in Gartner’s IT Hype Cycle (see Fig. 2).
+A Hype Cycle [10] is a way to represent the emergence, adoption,
+maturity, and impact on applications of specific technologies. It has
+been forecasted that IoT will take 5–10 years for market adoption.
+The popularity of different paradigms varies with time. The web
+search popularity, as measured by the Google search trends during
+the last 10 years for the terms Internet of Things, Wireless Sensor
+Networks and Ubiquitous Computing are shown in Fig. 3 [11]. As
+it can be seen, since IoT has come into existence, search volume is
+consistently increasing with the falling trend for Wireless Sensor
+Networks. As per Google’s search forecast (dotted line in Fig. 3), this
+trend is likely to continue as other enabling technologies converge
+to form a genuine Internet of Things.
+3.3. IoT elements
+We present a taxonomy that will aid in defining the components
+required for the Internet of Things from a high level perspective.
+Specific taxonomies of each component can be found
+elsewhere [12–14]. There are three IoT components which enables
+seamless ubicomp: (a) Hardware—made up of sensors, actuators
+and embedded communication hardware (b) Middleware—on demand
+storage and computing tools for data analytics and (c)
+Presentation—novel easy to understand visualization and interpretation
+tools which can be widely accessed on different platforms
+and which can be designed for different applications. In this section,
+we discuss a few enabling technologies in these categories
+which will make up the three components stated above.
+1648 J. Gubbi et al. / Future Generation Computer Systems 29 (2013) 1645–1660
+Fig. 2. Gartner 2012 Hype Cycle of emerging technologies.
+Source: Gartner Inc. [10].
+Fig. 3. Google search trends since 2004 for terms Internet of Things, Wireless Sensor Networks, Ubiquitous Computing.
+3.3.1. Radio Frequency Identification (RFID)
+RFID technology is a major breakthrough in the embedded communication
+paradigm which enables design of microchips for wireless
+data communication. They help in the automatic identification
+of anything they are attached to acting as an electronic barcode
+[15,16]. The passive RFID tags are not battery powered and they use
+the power of the reader’s interrogation signal to communicate the
+ID to the RFID reader. This has resulted in many applications particularly
+in retail and supply chain management. The applications
+can be found in transportation (replacement of tickets, registration
+stickers) and access control applications as well. The passive
+tags are currently being used in many bank cards and road toll tags
+which are among the first global deployments. Active RFID readers
+have their own battery supply and can instantiate the communication.
+Of the several applications, the main application of active
+RFID tags is in port containers [16] for monitoring cargo.
+3.3.2. Wireless Sensor Networks (WSN)
+Recent technological advances in low power integrated circuits
+and wireless communications have made available efficient, low
+cost, low power miniature devices for use in remote sensing applications.
+The combination of these factors has improved the viability
+of utilizing a sensor network consisting of a large number
+of intelligent sensors, enabling the collection, processing, analysis
+and dissemination of valuable information, gathered in a variety
+of environments [7]. Active RFID is nearly the same as the lower
+endWSNnodes with limited processing capability and storage. The
+scientific challenges that must be overcome in order to realize the
+enormous potential of WSNs are substantial and multidisciplinary
+in nature [7]. Sensor data are shared among sensor nodes and sent
+to a distributed or centralized system for analytics. The components
+that make up the WSN monitoring network include:
+(a) WSN hardware—Typically a node (WSN core hardware) contains
+sensor interfaces, processing units, transceiver units and
+power supply. Almost always, they comprise of multiple A/D
+converters for sensor interfacing and more modern sensor
+nodes have the ability to communicate using one frequency
+band making them more versatile [7].
+(b) WSN communication stack—The nodes are expected to be deployed
+in an ad-hoc manner for most applications. Designing
+J. Gubbi et al. / Future Generation Computer Systems 29 (2013) 1645–1660 1649
+an appropriate topology, routing and MAC layer is critical for
+the scalability and longevity of the deployed network. Nodes
+in a WSN need to communicate among themselves to transmit
+data in single or multi-hop to a base station. Node drop outs,
+and consequent degraded network lifetimes, are frequent. The
+communication stack at the sink node should be able to interact
+with the outside world through the Internet to act as a gateway
+to the WSN subnet and the Internet [17].
+(c) WSN Middleware—A mechanism to combine cyber infrastructure
+with a Service Oriented Architecture (SOA) and sensor networks
+to provide access to heterogeneous sensor resources in
+a deployment independent manner [17]. This is based on the
+idea of isolating resources that can be used by several applications.
+A platform-independent middleware for developing
+sensor applications is required, such as an Open Sensor Web
+Architecture (OSWA) [18]. OSWA is built upon a uniform set of
+operations and standard data representations as defined in the
+SensorWebEnablement Method (SWE) by the Open Geospatial
+Consortium (OGC).
+(d) Secure Data aggregation—An efficient and secure data aggregation
+method is required for extending the lifetime of the
+network as well as ensuring reliable data collected from sensors
+[18]. Node failures are a common characteristic of WSNs,
+the network topology should have the capability to heal itself.
+Ensuring security is critical as the system is automatically
+linked to actuators and protecting the systems from intruders
+becomes very important.
+3.3.3. Addressing schemes
+The ability to uniquely identify ‘Things’ is critical for the success
+of IoT. This will not only allow us to uniquely identify billions of
+devices but also to control remote devices through the Internet.
+The few most critical features of creating a unique address are:
+uniqueness, reliability, persistence and scalability.
+Every element that is already connected and those that are going
+to be connected, must be identified by their unique identification,
+location and functionalities. The current IPv4 may support to
+an extent where a group of cohabiting sensor devices can be identified
+geographically, but not individually. The Internet Mobility attributes
+in the IPV6 may alleviate some of the device identification
+problems; however, the heterogeneous nature of wireless nodes,
+variable data types, concurrent operations and confluence of data
+from devices exacerbates the problem further [19].
+Persistent network functioning to channel the data traffic
+ubiquitously and relentlessly is another aspect of IoT. Although,
+the TCP/IP takes care of this mechanism by routing in a more
+reliable and efficient way, from source to destination, the IoT faces
+a bottleneck at the interface between the gateway and wireless
+sensor devices. Furthermore, the scalability of the device address of
+the existing network must be sustainable. The addition of networks
+and devices must not hamper the performance of the network,
+the functioning of the devices, the reliability of the data over the
+network or the effective use of the devices from the user interface.
+To address these issues, the Uniform Resource Name (URN) system
+is considered fundamental for the development of IoT. URN
+creates replicas of the resources that can be accessed through the
+URL. With large amounts of spatial data being gathered, it is often
+quite important to take advantage of the benefits of metadata
+for transferring the information from a database to the user via
+the Internet [20]. IPv6 also gives a very good option to access the
+resources uniquely and remotely. Another critical development in
+addressing is the development of a lightweight IPv6 that will enable
+addressing home appliances uniquely.
+Wireless sensor networks (considering them as building blocks
+of IoT), which run on a different stack compared to the Internet,
+cannot possess IPv6 stack to address individually and hence a
+subnet with a gateway having a URN will be required. With this
+in mind, we then need a layer for addressing sensor devices by
+the relevant gateway. At the subnet level, the URN for the sensor
+devices could be the unique IDs rather than human-friendly names
+as in the www, and a lookup table at the gateway to address this
+device. Further, at the node level each sensor will have a URN (as
+numbers) for sensors to be addressed by the gateway. The entire
+network now forms a web of connectivity from users (high-level)
+to sensors (low-level) that is addressable (through URN), accessible
+(through URL) and controllable (through URC).
+3.3.4. Data storage and analytics
+One of the most important outcomes of this emerging field is
+the creation of an unprecedented amount of data. Storage, ownership
+and expiry of the data become critical issues. The internet consumes
+up to 5% of the total energy generated today and with these
+types of demands, it is sure to go up even further. Hence, data centers
+that run on harvested energy and are centralized will ensure
+energy efficiency as well as reliability. The data have to be stored
+and used intelligently for smart monitoring and actuation. It is important
+to develop artificial intelligence algorithms which could be
+centralized or distributed based on the need. Novel fusion algorithms
+need to be developed to make sense of the data collected.
+State-of-the-art non-linear, temporal machine learning methods
+based on evolutionary algorithms, genetic algorithms, neural networks,
+and other artificial intelligence techniques are necessary to
+achieve automated decision making. These systems show characteristics
+such as interoperability, integration and adaptive communications.
+They also have a modular architecture both in terms of
+hardware system design as well as software development and are
+usually very well-suited for IoT applications. More importantly, a
+centralized infrastructure to support storage and analytics is required.
+This forms the IoT middleware layer and there are numerous
+challenges involved which are discussed in future sections. As
+of 2012, Cloud based storage solutions are becoming increasingly
+popular and in the years ahead, Cloud based analytics and visualization
+platforms are foreseen.
+3.3.5. Visualization
+Visualization is critical for an IoT application as this allows the
+interaction of the userwith the environment. With recent advances
+in touch screen technologies, use of smart tablets and phones has
+become very intuitive. For a lay person to fully benefit from the IoT
+revolution, attractive and easy to understand visualization has to
+be created. As we move from 2D to 3D screens, more information
+can be provided in meaningful ways for consumers. This will also
+enable policy makers to convert data into knowledge, which is critical
+in fast decision making. Extraction of meaningful information
+from raw data is non-trivial. This encompasses both event detection
+and visualization of the associated raw and modeled data, with
+information represented according to the needs of the end-user.
